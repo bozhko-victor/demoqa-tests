@@ -5,7 +5,6 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -56,8 +55,7 @@ public class PracticeFormTest {
 
         $("#submit").click();
 
-        $(byText("Thanks for submitting the form"));
-        $x("//td[text()='Student Name']/following-sibling::td").shouldHave(text("Sam Miles"));
+        $x("//td[.='Student Name']/following-sibling::td").shouldHave(Condition.text(firstName + " " + lastName));
         $x("//td[.='Student Email']/following-sibling::td").shouldHave(Condition.text(userEmail));
         $x("//td[.='Gender']/following-sibling::td").shouldHave(Condition.text(gender));
         $x("//td[.='Mobile']/following-sibling::td").shouldHave(Condition.text(userNumber));
