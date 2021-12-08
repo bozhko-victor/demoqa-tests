@@ -2,7 +2,9 @@
 
 
 
-- Инструкция по настройке рабочей среды https://github.com/Amidosha/qa_infrastructure-installation-for-test 
+- Инструкция по настройке рабочей среды 
+- https://github.com/qa-guru/getting-started/wiki 
+- https://github.com/Amidosha/qa_infrastructure-installation-for-test 
 
 #### Шпаргалки по селекторам:
 - https://docs.google.com/document/d/1yCRtiij9v3-sk5NHXNMXxdcKB-AwgB5952jfF0xNctw/edit
