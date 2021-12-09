@@ -2,7 +2,7 @@
 
 
 
-- Инструкция по настройке рабочей среды 
+#### Инструкции по настройке рабочей среды: 
 - https://github.com/qa-guru/getting-started/wiki 
 - https://github.com/Amidosha/qa_infrastructure-installation-for-test 
 
